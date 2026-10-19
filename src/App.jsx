@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from './components/navbar';
-import UserBar from "./userBar";
+import UserBar from "./components/userBar";
 
 
 function App() {
