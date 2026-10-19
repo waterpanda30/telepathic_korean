@@ -2,12 +2,12 @@ import {useState} from "react"
 import React from 'react'
 import logo from '../assets/logo.png'
 
-const navbar=()=> {
+function navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   
   return (
-    <header className="relative flex items-center justify-between text-[#DDD4C8] py-8 px-3 bg-[#23170F] drop-shadow-none z-50">
+    <header className="relative flex items-center justify-between text-[#DDD4C8] py-6 px-3 bg-[#23170F] drop-shadow-none z-50">
         <a href="#">
             <img src={logo} alt="Telepathic korean" className="h-20 w-auto object-contain rounded-md hover:scale-105 transition-all"></img>
         </a>
